@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Notes</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fonts -->
+
+    <!-- icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- icon -->
+
+    <!-- style -->
+    <link rel="stylesheet" href="style/styleAdd.css" />
+    <!-- style -->
+  </head>
+  <body>
+    <main class="container" id="container">
+      <section class="header-section" id="header-section">
+        <h1 class="logo-title">NOTES</h1>
+      </section>
+      <section class="body-section" id="body-section">
+        <h4>Add your notes</h4>
+        <form action="" method="post">
+          <input type="text" placeholder="TITLE..." class="input-title" />
+          <div class="input-sub">
+            <div class="input-wrapper">
+              <label for="">subject:</label>
+              <input type="text" />
+            </div>
+            <div class="input-wrapper">
+              <label for="">note:</label>
+              <input type="text" />
+            </div>
+            <div class="input-wrapper">
+              <label for="">tags:</label>
+              <input type="text" />
+            </div>
+          </div>
+          <button type="submit">add note</button>
+        </form>
+      </section>
+    </main>
+    <!-- script feather icon -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- script feather icon -->
+  </body>
+</html>
