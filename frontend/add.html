@@ -30,19 +30,24 @@
       <section class="body-section" id="body-section">
         <h4>Add your notes</h4>
         <form action="" method="post">
-          <input type="text" placeholder="TITLE..." class="input-title" />
+          <input
+            type="text"
+            placeholder="TITLE..."
+            class="input-title"
+            name="title"
+          />
           <div class="input-sub">
             <div class="input-wrapper">
               <label for="">subject:</label>
-              <input type="text" />
+              <input type="text" name="subject" />
             </div>
             <div class="input-wrapper">
               <label for="">note:</label>
-              <input type="text" />
+              <input type="text" name="note" />
             </div>
             <div class="input-wrapper">
               <label for="">tags:</label>
-              <input type="text" />
+              <input type="text" name="tags" />
             </div>
           </div>
           <button type="submit">add note</button>
