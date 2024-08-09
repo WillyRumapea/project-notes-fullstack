@@ -79,6 +79,7 @@ section.body-section form .input-sub label {
 section.body-section form .input-sub input {
   outline: none;
   border: none;
+  font-family: "Patrick Hand", cursive;
 }
 
 section.body-section form button {

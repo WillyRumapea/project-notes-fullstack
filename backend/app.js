@@ -2,9 +2,11 @@ const express = require("express");
 const app = express();
 const port = 3000;
 const db = require("./conn");
+const cors = require("cors");
 const response = require("./response");
 const bodyParser = require("body-parser");
 
+app.use(cors());
 app.use(bodyParser.json());
 
 app.get("/notes", (req, res) => {

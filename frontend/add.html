@@ -15,7 +15,7 @@
     <!-- fonts -->
 
     <!-- icon -->
-    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- <script src="https://unpkg.com/feather-icons"></script> -->
     <!-- icon -->
 
     <!-- style -->
@@ -29,7 +29,7 @@
       </section>
       <section class="body-section" id="body-section">
         <h4>Add your notes</h4>
-        <form action="" method="post">
+        <form action="" id="post-notes">
           <input
             type="text"
             placeholder="TITLE..."
@@ -39,25 +39,28 @@
           <div class="input-sub">
             <div class="input-wrapper">
               <label for="">subject:</label>
-              <input type="text" name="subject" />
+              <input type="text" name="subject" id="subject" />
             </div>
             <div class="input-wrapper">
               <label for="">note:</label>
-              <input type="text" name="note" />
+              <input type="text" name="note" id="note" />
             </div>
             <div class="input-wrapper">
               <label for="">tags:</label>
-              <input type="text" name="tags" />
+              <input type="text" name="tags" id="tags" />
             </div>
           </div>
-          <button type="submit">add note</button>
+          <button type="submit" id="addNote">add note</button>
         </form>
       </section>
     </main>
     <!-- script feather icon -->
-    <script>
+    <!-- <script>
       feather.replace();
-    </script>
+    </script> -->
     <!-- script feather icon -->
+    <!-- js script -->
+    <script src="js/addNotes.js"></script>
+    <!-- js script -->
   </body>
 </html>

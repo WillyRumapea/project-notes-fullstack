@@ -1,6 +1,5 @@
-const addbutton = document.getElementsByClassName("button-add")[0];
-const container = document.getElementById("container");
+const buttonAdd = document.getElementsByClassName("button-add")[0];
 
-addbutton.addEventListener("click", () => {
+buttonAdd.addEventListener("click", () => {
   window.location.href = "add.html";
 });
